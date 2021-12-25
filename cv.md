@@ -36,6 +36,25 @@ My goal is to become a JS/FE developer in demand. My core strengths are efficien
 
 
 ## Code examples
+* JavaScript
+
+
+```
+function multiply(a, b){
+return a * b
+}
+```
+
+
+```
+function even_or_odd(n) {
+    if(n % 2 === 0) {
+      return 'Even';
+    } else {
+      return 'Odd';
+    }
+};
+```
 
 
 ---
