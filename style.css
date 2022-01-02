@@ -1,8 +1,161 @@
-html {
-    font-family: Tahoma, sans-serif;
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
 }
 
-.me-png {
-    width: 230px;
-    height: 230px;
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth; 
+}
+
+
+body {
+display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    transition: color 0.1s;
+    color: #E63946;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+
+.nav-link:hover {
+    color: #457B9D;
+    text-decoration: underline;
+}
+
+
+a {
+    text-decoration: none;
+    transition: color 0.1s;
+    color:#1D3557
+}
+
+
+a:hover {
+    color: #457B9D;
+    text-decoration: underline;
+}
+
+
+.section {
+    width: 49%;
+    border-bottom: 1px solid #E63946;
+    color: #1D3557;
+}
+
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 2px solid #E63946;
+    border-top: 2px solid #E63946;
+    text-align: center;
+}
+
+
+h1 {
+    color: #1D3557;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.section-profile h3 {
+    font-variant: small-caps;
+    font-weight: 700;
+    color: #1D3557;
+}
+
+.profile-logo {
+    width: 200px;
+    height: 200px
+}
+
+
+#language {
+    border-bottom: 0px;
+}
+footer {
+    background: linear-gradient(white, 20%, #457B9D)
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #F1FAEE;
+}
+
+
+.github-nav-link {
+    color: #F1FAEE;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    transition: color 0.1s;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+
+.github-nav-link:hover {
+    color: #E63946;
+    text-decoration: underline;
+}
+
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./rss.svg);
 }
