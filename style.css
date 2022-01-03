@@ -122,6 +122,14 @@ h1 {
 #language {
     border-bottom: 0px;
 }
+
+
+
+#projects {
+    border-bottom: 0px;
+}
+
+
 footer {
     background: linear-gradient(white, 20%, #457B9D)
 }
