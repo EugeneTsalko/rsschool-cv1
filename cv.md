@@ -47,20 +47,30 @@ return a * b
 
 
 ```
-function even_or_odd(n) {
-    if(n % 2 === 0) {
-      return 'Even';
-    } else {
-      return 'Odd';
-    }
-};
+function likes(names) {
+  if (names.length === 0) { return 'no one likes this'; }
+  if (names.length === 1) { return `${names[0]} likes this`; }
+  if (names.length === 2) { return `${names[0]} and ${names[1]} like this`; }
+  if (names.length === 3) { return `${names[0]}, ${names[1]} and ${names[2]} like this`; }
+  return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
+}
 ```
 
 
 ---
 
 
+## Projects 
+* [Portfolio landing page](https://eugenetsalko.github.io/portfolio/)
+* [Random jokes](https://eugenetsalko.github.io/random-jokes/)
+* [Tic-tac-toe](https://eugenetsalko.github.io/tic-tac-toe/)
+
+
+---
+
+
 ## Experience
+* Deputy chief accountant (2015-2022)
 * Individual entrepreneur (2017-2019) - tax consulting
 * _In process as a developer..._
 
@@ -76,7 +86,9 @@ function even_or_odd(n) {
 * EPAM (LEARN digital platform)
    * Computer science basics
    * Software development methodologies (_in process..._)
-* RS School: JS/FE #stage0 (_in process..._)
+* RS School: JS/FE #stage0 
+   * JS/FE #stage0
+   * JS/FE #stage1 (_in process..._)
 
 
 ----
